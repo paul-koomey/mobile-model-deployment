@@ -1,6 +1,6 @@
 # mobile-model-deployment
 
-Currently a work in progress, this project will convert the encoder portion of an exisiting variational autoencoder model to ONNX so that it can be deployed on a mobile device.
+Currently a work in progress, this project will convert the encoder portion of an exisiting variational autoencoder (VAE) model (from this [preprint](https://arxiv.org/abs/2205.10373)) to ONNX so that it can be deployed on a mobile device. The VAE will compress an H&E slide image to a latent space  so that it can be sent over a mobile/WiFi network and 'uncompressed' using the decoder portion of the model on a different device.
 
 
 ## model_to_ONNX_notebook directory
